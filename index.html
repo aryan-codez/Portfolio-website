@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aryan | Web Developer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    body {
+      background: linear-gradient(to right, #2c3e50, #3498db);
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header h1 {
+      font-size: 48px;
+      animation: fadeIn 1s ease-in-out;
+    }
+    header p {
+      font-size: 20px;
+      margin-top: 10px;
+      color: #ecf0f1;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    nav {
+      background: rgba(0,0,0,0.3);
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #f1c40f;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      animation: slideUp 1s ease-in-out;
+    }
+    h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      border-left: 5px solid #f1c40f;
+      padding-left: 10px;
+    }
+
+    .skills li {
+      margin: 10px 0;
+      padding: 8px;
+      background: rgba(255, 255, 255, 0.1);
+      border-left: 3px solid #f1c40f;
+    }
+
+    .project {
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 5px solid #f39c12;
+      transition: transform 0.3s ease;
+    }
+    .project:hover {
+      transform: scale(1.02);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: #aaa;
+    }
+
+    a {
+      color: #f1c40f;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 36px;
+      }
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <h1>👨‍💻 Aryan</h1>
+    <p>Web Developer | Portfolio Expert | Designer</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am Aryan, a passionate web developer who builds clean, fast and interactive websites using HTML, CSS & JavaScript. I love creating beautiful designs and coding them into functional websites.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>HTML5</li>
+      <li>CSS3 (Flexbox, Grid)</li>
+      <li>JavaScript (ES6+)</li>
+      <li>Responsive Design</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>A fully responsive portfolio website made using HTML, CSS and basic JS animations.</p>
+    </div>
+    <div class="project">
+      <h3>To-Do App</h3>
+      <p>A simple task management app built using JavaScript and local storage.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:aryanboy9211@gmail.com">aryanboy9211@gmail.com</a></p>
+    <p>Phone: <a href="tel:+918307794109">8307794109</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/aryan_editor_9211" target="_blank">@aryan_editor_9211</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Aryan. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
